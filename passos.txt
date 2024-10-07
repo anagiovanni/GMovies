@@ -1,0 +1,42 @@
+*Configuração da conta local do GIT:
+git config --global user.name anagiovanni
+git config --global user.email anagiovanni66@gmail.com
+
+*criar projeto 
+npx create-expo-app@latest GMusic --template blank
+cd GMusic
+
+*Executar o projeto 
+npx expo start --localhost --android
+npm i
+
+*Instalar os pacotes necessarios:
+npx expo install react-dom react-native-web @expo/metro-runtime
+npx expo install @react-navigation/native
+npx expo install @react-navigation/native-stack
+npx expo install react-native-screens react-native-safe-area-context
+npx expo install react-native-gesture-handler
+
+// TailWind - NativeWind
+npm install nativewind
+npm install --save-dev tailwindcss@3.3.2
+npx tailwindcss init
+
+// Carousel
+npm i react-native-reanimated-carousel
+npx expo install react-native-reanimated
+
+// React native heroicons
+npm i react-native-heroicons
+
+// Gradiente
+npm i expo-linear-gradient
+
+// Barra Progresso
+npm i react-native-progress
+
+
+// Fetch API - Axios
+npm i axios
+
+// Criando o site https://www.themoviedb.org/
