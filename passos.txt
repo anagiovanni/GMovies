@@ -39,4 +39,7 @@ npm i react-native-progress
 // Fetch API - Axios
 npm i axios
 
+
+ES7+ React/Redux/React-Native
+
 // Criando o site https://www.themoviedb.org/
