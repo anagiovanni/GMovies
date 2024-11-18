@@ -40,6 +40,6 @@ npm i react-native-progress
 npm i axios
 
 
-ES7+ React/Redux/React-Native
+ES7+ React/Redux/React-Native --- rnf
 
 // Criando o site https://www.themoviedb.org/
